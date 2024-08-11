@@ -1,0 +1,31 @@
+[
+    {
+        "categoryName": "פיצה",
+        "img": "../Picturs/פיצה.jfif",
+        "typadition": 1
+    },
+
+    {
+        "categoryName": "טוסט",
+        "img": "../Picturs/טוסטים-150x150.png",
+        "typadition": 2
+    },
+
+    {
+        "categoryName": "סלט",
+        "img": "../Picturs/סלטים.png",
+        "typadition": 3
+    },
+
+    {
+        "categoryName": "ציפס",
+        "img": "../Picturs/ציפס.jpg",
+        "typadition": 0
+    },
+
+    {
+        "categoryName": "שתיה",
+        "img": "../Picturs/שתייייה.jpg",
+        "typadition": 4
+    }
+]

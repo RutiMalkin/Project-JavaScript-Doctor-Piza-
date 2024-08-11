@@ -1,0 +1,245 @@
+body{
+    background-image: url(../Picturs/ריקה\ שחור.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.enterInfromation
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-pay{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #d8c09d;
+    width: 545px;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.form-pay > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 523px;
+}
+
+.form-pay > h2{
+    color: #d8c09d;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.div-form-pay{
+    padding: 7px;
+}
+
+.div-form-pay > label{
+    color:#f3f4ef;
+    width: 120px;
+    direction: rtl;
+}
+
+.div-form-pay > input{
+    height: 35px;
+    width: 165px;
+    border-radius: 4px;
+    direction: rtl;
+}
+
+.ok{
+    border-radius: 4px;
+    color: #f3f4ef;
+    background-color: #d8c09d;
+    border: none;
+    width: 134px;
+    text-align: center;
+    height: 31px;
+    margin-top: 654px;
+}
+
+.cities{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #d8c09d;
+    width: 545px;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.cities > h2{
+    color: #d8c09d;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.searchcity{
+    display: flex;
+    color: #f3f4ef;
+    direction: rtl;
+    width: 406px; 
+    padding: 7px;
+}
+
+.searchcity > input{
+    margin-right: 18px;
+    border-radius: 4px;
+    height: 35px;
+    width: 165px;
+    display: block;
+}
+
+.divcity {
+    color: #f3f4ef;
+    border-color: #d8c08c;
+    border-radius: 5px;
+    border-style: solid;
+    width: 105px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.incities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    width: 523px;   
+}
+
+.none{
+    display: none;
+}
+
+.diverorr{
+    color: #d8c08c;
+    margin: 55px;
+}
+
+.linkInformation{
+    text-decoration-line: none;
+}
+
+.allInfromation{
+    color: #f3f4ef;
+    border-color: #d8c08c;
+    border-radius: 20px;
+    border-style: solid;
+    width: 545px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.helloUser{
+    font-size: 30px;
+    color: #d8c08c;
+    font-weight: bolder;
+    text-align: center;
+    padding: 22px;
+}
+
+.titelMenu{
+    color: #d8c08c;
+    text-align: end;
+    margin-right: 34px;
+    font-size: 20px;
+}
+
+.divAllProduct{
+    text-align: end;
+    margin-right: 43px;
+}
+
+.divProduct{
+    display: flex;
+    justify-content: space-between;
+    width: 422px;
+    margin-left: 66px;
+}
+
+.nameProduct{
+    direction: rtl;
+}
+
+
+.divAdd{
+    display: flex;
+    justify-content: space-between;
+    width: 341px;
+    margin-left: 105px;
+}
+
+.divAllPrice{
+    font-size: 16px;
+    color: #d8c08c;
+    margin-left: 20px;
+}
+
+.sent{
+    font-size:16px;
+    color: #d8c08c;
+    padding-left: 20px;
+}
+
+.divAllSumPrice{
+    font-size:20px;
+    color: #d8c08c;
+    padding-left: 20px;
+}
+
+.divInfor{
+    color: #f3f4ef;
+    direction: rtl;
+}
+
+.infor{
+    margin: 7px;
+    margin-right: 47px;
+}
+
+.titelInfor{
+    text-align: end;
+    color: #d8c08c;
+    font-size: 20px;
+    margin-right: 34px;
+}
+
+.toChange{
+    text-align: center;
+    color: #d8c08c;
+}
+
+
+.toFinish{
+    border-radius: 9px;
+    border-color: #d8c08c;
+    border-style: ridge;
+    width: 79px;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.toFinish:hover{
+    border-color: #f3f4ef;
+    color: #d8c08c;
+}
+
+.finish{
+    color: #d8c08c;
+    font-size: 32px;
+    margin-top: 27px;
+    text-align: center;
+}
+
+.finishHappy{
+    color: #f3f4ef;
+    font-size: 32px;
+    text-align: center;
+    padding-right: 281px;
+}
+

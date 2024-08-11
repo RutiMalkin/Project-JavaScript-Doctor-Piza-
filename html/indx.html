@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title> דוקטור פיצה | בית קפה ומסעדה</title>
+    <link rel="shortcute icon" href="../Picturs/./דר פיצה 2.png" type="imege/x-icon">
+    <link rel="stylesheet" href="../css/./start.css">
+    <link rel="stylesheet" href="../javascript/script.js">
+    <link rel="stylesheet" href="../icons/css/all.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <!--top nav-->
+    <div class="top-nav">
+        <a href="./indx.html"><img src="../Picturs/דר פיצה.png" alt="logo"></a>
+        <div class="all-nav">
+            <div><a class="nav navp" href="#about">אודותינו</a></div>
+            <div class="navp">|</div>
+            <div><a class="nav navp" href="#contact">צרו קשר</a></div>
+            <div class="navp">|</div>
+            <div><button type="button" class="nav login" data-bs-toggle="modal" data-bs-target="#exampleModal">התחברות</button></div>
+        </div>
+
+        <span id="openorclose" ></span>
+        <div class="fone-piza">1-700-500455</div>
+    </div>
+
+
+  <!--img pizza-->
+    <div class="background-img">
+      <img src="../Picturs/הכשר.png" alt="cosher">
+    </div>
+    
+    
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="../Picturs/סכין מזלג.svg" alt="סכין ומזלג" id="knife">התחברות</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="form-signin m-auto col-6  container-md">
+                <form id="login-form">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="singinInputEmail" placeholder="name@example.com" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="singinInputName" placeholder="Name" required>
+                        <label for="floatingPassword">name</label>
+                    </div>
+                    <div class="form-check text-start my-3">
+                        <input class="form-check-input" type="checkbox" value="remember-me" id="singinInputRemember">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            זכור אותי
+                        </label>
+                    </div>
+                    <button type="button" class="btn w-100 py-2 btn-sign-in" data-bs-dismiss="modal" id="btn-close">Sign in</button>
+       
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-bs-dismiss="modal" id="btn-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal additionl-->
+  <div class="modal fade" id="additionalModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" id="model-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="innHader"></div>
+        </div>
+        <div class="modal-body" id="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn save" data-bs-dismiss="modal" id="btn-close">להוספה</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Shopping Basket-->
+  
+  <button class="topShoppingBasket" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fas fa-shopping-cart"></i></button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header" id="offcanvas-header">
+     <h5 class="offcanvas-title" id="offcanvasScrollingLabel"> :התפריט שלי </h5>
+     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="inBasket"></div>
+  </div>
+<div class="offcanvas-bottom">
+  <div class="pricebasket">
+    <div>₪</div>
+    <div class="allPrice">0</div>
+    <div>:סה"כ</div>
+  </div>
+  <div class="topay">מעבר לתשלום</div>
+</div>
+</div>
+
+
+<!--product -->
+<div id="under-products">
+</div>
+<!--about doktor pizza-->
+<div class="about-pizza" id="about">
+
+  <span>
+    דוקטור פיצה בית קפה ומסעדה חלבית
+  </span>
+
+<div>
+  <img src="../Picturs/store.jpg" alt="shope">
+  <p>המסעדה ממוקמת בפריסה רחבה בכל חלקי הארץ 
+     ומציעה ללקוחותיה מגוון רחב ועשיר של פיצות סלטים וטוסטים בהרכבה אישית.
+    <br>
+    במקום ניתן לערוך אירועים ימי הולדת ומסיבות עד 50 איש.
+    <br>
+    אנו משקעים בחידוש התפריט לפי הדרישות של לקוחתנו
+     ודואגים לתת שירות איכותי מהיר ומקצועי.
+     <br>
+     במקום צוות שליחים מהיר ואיכותי הנותן מענה למשלוחים לרוב חלקי הארץ.
+    אנו ערוכים לתת מענה לישיבות ומשרדים להזמנות גדולות גם בהתראה של זמן קצר בזכות הצוות הגדול והמקצועי.
+    <br>
+    למסעדה אתר אינטרנט נגיש לביצוע הזמנות אונליין בצורה יעילה מהירה ומקצועית.
+  </p>
+</div>
+</div>
+<!--from contact -->
+<div class="contact" id="contact">
+  </form> 
+  <div>
+    <ul>
+      <li>
+        <span>
+          <i class="bi bi-clock"></i>
+        </span>
+        פתוח מ 11.00 בבוקר עד 22.00 בלילה
+      </li>
+      <li>
+        <span>
+          <i class="bi bi-telephone-fill"></i>
+        </span>
+        טלפון: 1-700-500-455
+      </li>
+      <li>
+        <span></span>
+        דמי משלוח בהזמנה אונליין: 15 ש"ח
+      </li>
+      <li>
+        <span></span>
+        דמי משלוח בהזמנה טלפונית: 18 ש"ח
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<script src="../files/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+<script src="../javascript/script.js"></script>
+<script src="../javascript/singin.js"></script> 
+</body>
+</html>

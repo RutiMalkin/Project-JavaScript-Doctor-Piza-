@@ -1,0 +1,467 @@
+body{
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top-nav{
+    background-color: black;
+    border-bottom: 1px solid #d8c08c;
+    height:86px;
+    position: fixed;
+    z-index: 1;
+    width: 1519px;
+    display: flex;
+    direction: rtl;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.background-img{
+    background-image: url(../Picturs/dr.pizza_br.jpg);
+    background-size: 100% 100%;
+    width: 1519px;
+    height: 690px;  
+    display: flex;
+}
+
+.background-img > img{
+    height: 132px;
+    padding-left: 12%;
+    margin-top:12%;
+}
+
+.all-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 450px;
+    font-size: 25px;
+    color: #d8c08c;
+
+}
+
+.fone-piza{
+    color: #d8c08c;
+    font-size: 30px;
+}
+
+.nav{
+    text-decoration-line: none;
+    color: white;
+}
+
+.top-nav > a > img{
+    width: 270px;
+}
+
+.login{
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav:hover{
+    color: #d8c08c;
+}
+
+/* --להוסיף */
+.close{
+    border-radius: 12px;
+    border-color: white;
+    border-style: ridge;
+    width: 57px;
+    text-align: center;
+    color: white;
+    height: 32px;
+}
+
+.open{
+    border-radius: 12px;
+    border-color: #d8c08c;
+    border-style: ridge;
+    width: 57px;
+    text-align: center;
+    color: white;
+    height: 32px;
+}
+/*  */
+#btn-sign-in{
+    background-color: #d8c08c ;
+    color: white;
+}
+
+#btn-close{
+    background-color: #d8c08c ;
+    color: white;
+}
+
+#knife{
+    height: 31px;
+}
+
+#under-products{
+    background-color: #d8c08c;
+}
+
+#under-products > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 45px 0px;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.img-products{
+    border-radius: 253px;
+    height: 159px;
+}
+
+.about-pizza{
+    background-image: url(../Picturs/ריקה\ שחור.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 540px;
+    width: 1518px;
+    border-bottom: 1px solid #d8c08c;
+}
+
+.about-pizza > span{
+    color: white;
+    font-size: 31px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    padding-top: 76px;
+    padding-bottom: 46px;
+}
+
+.about-pizza > div{
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pizza > div > img{
+    height: 228px;
+    padding-left: 35px;
+}
+
+.about-pizza > div > p{
+    color: white;
+    width: 49%;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.contact{
+    height: 150px;
+    background-image: url(../Picturs/ריקה\ שחור.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 1518px;
+    color: white;
+    direction: rtl;
+    font-size: 18px;
+}
+
+.contact > div > ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+}
+
+#email-contact{
+    width: 400px;
+}
+
+
+.contact-inputs > input{
+    background-color: #d8c08c;
+    border-radius: 6px;
+    height: 41px;
+    opacity: 70%;
+    display: block;
+}
+
+.btn-to-sent{
+    background-color: #d8c08c;
+    border-radius: 6px;
+}
+
+.div-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-products:hover{
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.card{
+    width: 192px;
+    margin: 5px;
+    border: none;
+    background-color: #f3f4ef;
+}
+
+.card:hover{
+    border: 2px;
+    border-color: #d8c08c;
+    border-style: ridge;
+}
+
+.back-img{
+    background-position: center;
+}
+
+.name-addition-products{
+    font-size: 20px;
+    margin: auto;
+}
+
+.price-addition-products{
+    margin: auto;
+}
+
+#model-header{
+    direction: rtl;
+}
+
+.iconImg{
+    width: 45px;
+}
+
+.innHader{
+    display: flex;
+    align-items: center;
+}
+
+.innHader > h1{
+    font-size: 30px;
+    padding: 7px;
+}
+
+.pizzaAssembly{
+    width: 266px;
+    position: fixed;
+    z-index: 2;
+    margin-left: -267px;
+    
+}
+
+.optionsPos{
+    width: 170px;
+    padding-top: 17px;
+    position: fixed;
+    margin-left: -258px;
+}
+
+.divAboveAdditional{
+    position: fixed;
+    z-index: 1;
+    background-color: #f3f4ef;
+    width: 594px;
+    height: 60px;
+}
+
+.divUnderAbove{
+    width: 594px;
+    height: 60px;
+}
+
+.underPizza{
+    height: 208px;
+    width: 592px;
+    position: fixed;
+    z-index: 1;
+    background-color: #f3f4ef;
+}
+/*  */
+.divsumprice{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border-color: #d8c08c;
+    border-style: ridge;
+    width: 114px;
+    margin-left: 36px;
+    margin-top: 8px;
+}
+
+.divsumprice > span{
+    font-size: 24px;
+}
+/*  */
+.sumPrice{
+    width: 60px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.modal-content{
+    width: 640px;
+}
+
+.modal-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.underunderpizza{
+    height: 208px;
+    width: 620px;
+}
+
+.imgOptions{
+    width: 108px;
+    margin-left: 15px;
+    padding-top: 12px;
+}
+
+.divadd{
+    background-color: #f3f4ef;
+    border-radius: 8px;
+    width: 140px;
+    margin: 4px;
+}
+
+.divadd:hover{
+    border: 2px;
+    border-color: #d8c08c;
+    border-style: ridge;
+}
+
+.divalladditional{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.priceadd{
+    padding-left: 56px;
+}
+
+.h3Name{
+    text-align: center;
+    font-size: 18px;
+}
+
+.optionsopacity{
+    opacity: 0;
+}
+
+.topShoppingBasket{
+    position: fixed;
+    z-index: 1;
+    top: 131px;
+    border: none;
+    background-color: transparent;
+}
+
+.topShoppingBasket > i{
+    font-size: 50px;
+    color: #f3f4ef;
+}
+
+#offcanvas-header{
+    border: 2px;
+    border-style: solid;
+    border-color: #d8c08c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#offcanvasScrollingLabel{
+    margin: auto;
+    color: #d8c08c;
+}
+
+/*  */
+.divProductInBasket{
+    display: flex;
+    border-style: ridge;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 74px;
+    width: 362px;
+}
+
+.divprice{
+   padding-top: 15px;
+}
+
+.imgproductInBasket{
+    width: 84px;
+    background-position: center;
+    border-style: outset;
+}
+
+.nameproduct{
+    font-size: 18px;
+    width: 102px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.less{
+    border-radius: 5px;
+    border-style: double;
+    border-color: #d8c08c;
+    color: #d8c08c;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-weight: bold ;
+    margin-top: 37px;
+    margin-left: 4px;
+}
+
+.less:hover{
+    background-color: #f3f4ef;
+}
+
+.allprice{
+    text-align: center;
+}
+
+.pricebasket{
+    display: flex;    
+}
+
+.offcanvas-bottom{
+    display: flex;
+    border: 2px;
+    border-style:solid;
+    border-color: #d8c08c;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 60px;
+    font-size: 1.25rem;
+    color: #d8c08c;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topay{
+    border-radius: 5px;
+    border-style: double;
+    width: 140px;
+    text-align: center;
+}
+
+.topay:hover{
+    background-color: #f3f4ef;
+}
+

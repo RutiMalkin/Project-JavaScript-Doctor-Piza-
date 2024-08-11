@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>דוקטור פיצה | תשלום</title>
+    <link rel="shortcute icon" href="../Picturs/./דר פיצה 2.png" type="imege/x-icon">
+    <link rel="stylesheet" href="../css/pay.css">
+     <link rel="stylesheet" href="../css/responsive.css">
+
+</head>
+<body  class="body">
+
+<div class="enterInfromation">
+    <div class="form-pay">
+        <h2>:פרטי הזמנה</h2>
+        <form>
+            <div class="div-form-pay">
+                <input type="text" id="name-input" name="card-name" placeholder="שם ומשפחה" required>
+                <label for="name">שם בעל הכרטיס</label>
+            </div>
+
+            <div class="div-form-pay">
+                <input type="text" id="id-input" name="card-id" placeholder="000000000" required>
+                <label for="id">ת.ז בעל הכרטיס</label>
+            </div>
+
+            <div class="div-form-pay">
+                <input type="password" id="card-number-input" name="card-number" placeholder="1111-2222-3333-4444" required>
+                <label for="number">מספר אשראי</label>
+            </div>
+            
+            <div class="div-form-pay">
+                <input type="date" id="expmonth-input" name="expmonth" placeholder="dd/mm/yyyy" required>
+                <label for="expmonth">תוקף</label>
+            </div>
+
+            <div class="div-form-pay">
+                <input type="tel" id="phon-number-input" name="phone" placeholder="02-2222222" required>
+                <label for="phon-number">טלפון</label>
+            </div>
+        </form>
+    </div>
+    
+    <a class="linkInformation" href="#allInfromation"><div class="ok">אישור</div></a>
+
+    <div class="cities">
+        <h2>:הסניף הקרוב אלי</h2>
+            <div class="searchcity">
+                <label for="id" >חיפוש סניף</label>
+                <input type="text" id="search" placeholder="חיפוש סניף">
+            </div>
+        <div class="incities">
+        </div>
+    </div>
+</div>
+
+
+<div style="display: none;" class="allInfromation" id="allInfromation"></div>
+
+
+ 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+    <script src="../javascript/pay.js"></script>
+</body>
+</html>

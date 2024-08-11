@@ -1,0 +1,442 @@
+[
+    {
+        "type": 1,
+        "price": 30,
+        "iconImg":"../Picturs/איקון פיצה.svg",
+        "imgUp":"../Picturs/פיצה.jfif",
+        "pizzaAssembly": "../Picturs/./options piza/bigPizza.png",
+        "categoryName": "פיצה",
+        "productSaditionals":
+        [
+            {
+                "name":"גבינה צהובה",
+                "img1":"../Picturs//options piza/doubleCheese.png",
+                "img2":"../Picturs//options piza/opacityDoubleCheese.png",
+                "price":"₪3"
+            },
+            {
+                "name":"גבינה בולגרית",
+                "img1":"../Picturs//options piza/boolgarianCheese.png",
+                "img2":"../Picturs//options piza/opacityCheese.png",
+                "price":"₪5"
+            },
+            {
+                "name":"עגבניה",
+                "img1":"../Picturs//options piza/Tomato.png",
+                "img2":"../Picturs//options piza/opacityTomatos.png",
+                "price":"₪3"
+            },
+            {
+                "name":"פלפל אדום",
+                "img1":"../Picturs//options piza/peper.png",
+                "img2":"../Picturs//options piza/opacityPeper.png",
+                "price":"₪3"
+            },
+            {
+                "name":"פלפל חריף",
+                "img1":"../Picturs//options piza/hutPeper.png",
+                "img2":"../Picturs//options piza/opacityHutPeper.png",
+                "price":"₪3"
+            },
+            {
+                "name":"בצל",
+                "img1":"../Picturs//options piza/onion.png",
+                "img2":"../Picturs//options piza/opacityOnion.png",
+                "price":"₪3"
+            },
+            {
+                "name":"פטריות",
+                "img1":"../Picturs//options piza/mashroom.png",
+                "img2":"../Picturs//options piza/opacityMashroom.png",
+                "price":"₪3"
+            },
+            {
+                "name":"זיתים ירוקים",
+                "img1":"../Picturs//options piza/greenOlives.png",
+                "img2":"../Picturs//options piza/opacityGreenOlives.png",
+                "price":"₪3"
+            },
+            {
+                "name":"זיתים שחורים",
+                "img1":"../Picturs//options piza/blackOlives.png",
+                "img2":"../Picturs//options piza/opacityBlackOlives.png",
+                "price":"₪3"
+            },
+            {
+                "name":"חציל",
+                "img1":"../Picturs//options piza/eggplan.png",
+                "img2":"../Picturs/./options piza/opacityEegplan.png",
+                "price":"₪3"
+            },
+            {
+                "name":"תירס",
+                "img1":"../Picturs//options piza/corn.png",
+                "img2":"../Picturs//options piza/opacityCorn.png",
+                "price":"₪3"
+            },
+            {
+                "name":"טונה",
+                "img1":"../Picturs//options piza/tuna.png",
+                "img2":"../Picturs//options piza/opacityTuna.png",
+                "price":"₪3"
+            }
+        ]
+    },
+    {
+        "type":2,
+        "price": 15,
+        "iconImg":"../Picturs/אייקון טוסטים.svg",
+        "imgUp":"../Picturs/טוסטים-150x150.png",
+        "categoryName": "טוסט",
+        "productSaditionals":
+        [
+            {
+                "name":"גבינה צהובה",
+                "img1":"../Picturs//options piza/doubleCheese.png",
+                "price":"₪1"
+            },
+            {
+                "name":"גבינה בולגרית",
+                "img1":"../Picturs//options piza/boolgarianCheese.png",
+                "price":"₪1"
+            },
+            {
+                "name":"עגבניה",
+                "img1":"../Picturs//options piza/Tomato.png",
+                "price":"₪1"
+            },
+            {
+                "name":"פלפל אדום",
+                "img1":"../Picturs//options piza/peper.png",
+                "price":"₪1"
+            },
+            {
+                "name":"פלפל חריף",
+                "img1":"../Picturs//options piza/hutPeper.png",
+                "price":"₪1"
+            },
+            {
+                "name":"בצל",
+                "img1":"../Picturs//options piza/onion.png",
+                "price":"₪1"
+            },
+            {
+                "name":"פטריות",
+                "img1":"../Picturs//options piza/mashroom.png",
+                "price":"₪1"
+            },
+            {
+                "name":"זיתים ירוקים",
+                "img1":"../Picturs//options piza/greenOlives.png",
+                "price":"₪1"
+            },
+            {
+                "name":"זיתים שחורים",
+                "img1":"../Picturs//options piza/blackOlives.png",
+                "price":"₪1"
+            },
+            {
+                "name":"חציל",
+                "img1":"../Picturs//options piza/eggplan.png",
+                "price":"₪1"
+            },
+            {
+                "name":"תירס",
+                "img1":"../Picturs//options piza/corn.png",
+                "price":"₪1"
+            },
+            {
+                "name":"טונה",
+                "img1":"../Picturs//options piza/tuna.png",
+                "price":"₪1"
+            }
+        ]
+    
+    },
+    {
+        "type":3,
+        "price": 15,
+        "iconImg":"../Picturs/אייקון סלטים.svg",
+        "imgUp":"../Picturs/סלטים.png",
+        "categoryName": "סלט",
+        "productSaditionals":
+        [
+            {
+                "name":"גזר",
+                "img1":"../Picturs//options salat/גזר.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"בטטה",
+                "img1":"../Picturs//options salat/בטטה.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"בצל ירוק",
+                "img1":"../Picturs//options salat/בצל ירוק.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"בצל סגול",
+                "img1":"../Picturs//options salat/בצל סגול.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"פלפל אדום",
+                "img1":"../Picturs//options salat/גמבה.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"זיתים חומים",
+                "img1":"../Picturs//options salat/זיתים מוזרים.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"זיתים שחורים",
+                "img1":"../Picturs//options salat/זיתים שחורים.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"זיתים ירוקים",
+                "img1":"../Picturs//options salat/זיתים.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"חסה",
+                "img1":"../Picturs//options salat/חסה.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"חציל",
+                "img1":"../Picturs//options salat/חצילים.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"כרוב סגול",
+                "img1":"../Picturs//options salat/כרוב סגול.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"כרוב לבן",
+                "img1":"../Picturs//options salat/כרוב.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"מלפפון",
+                "img1":"../Picturs//options salat/מלפפון.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"נבטים",
+                "img1":"../Picturs//options salat/נבטים.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"עגבניה",
+                "img1":"../Picturs//options salat/עגבניה.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"עגבניות שרי",
+                "img1":"../Picturs//options salat/עגבניות שרי.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"פטריות",
+                "img1":"../Picturs//options salat/פטריה.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"פלפל חריף",
+                "img1":"../Picturs//options salat/פלפל חריף.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"תירס",
+                "img1":"../Picturs//options salat/תירס.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"שום",
+                "img1":"../Picturs//options salat/שום.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"עדשים שחורות",
+                "img1":"../Picturs//options salat/עדשים שחורות.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"פטרוזיליה",
+                "img1":"../Picturs//options salat/פטרוזיליה.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"גבינה בולגרית",
+                "img1":"../Picturs//options salat/בולגרית.png",
+                "price":"₪1"
+            },
+            {
+                "name":"גבינת עזים",
+                "img1":"../Picturs//options salat/גבינת עזים.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"תערובת פיצוחים",
+                "img1":"../Picturs//options salat/תערובת פיצוחים.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"ביצה",
+                "img1":"../Picturs//options salat/ביצה.webp",
+                "price":"₪1"
+            },
+            {
+                "name":"חומוס",
+                "img1":"../Picturs//options salat/חומוס.jpg",
+                "price":"₪1"
+            },
+            {
+                "name":"סלומון",
+                "img1":"../Picturs//options salat/סלומון.jpg",
+                "price":"₪7"
+            },
+            {
+                "name":"קינואה",
+                "img1":"../Picturs//options salat/קינואה.jpg",
+                "price":"₪2"
+            },
+            {
+                "name":"רוטב אלף איים",
+                "img1":"../Picturs//options salat/רוטב אלף איים.jpg",
+                "price":"₪2"
+            },
+            {
+                "name":"רוטב ויניגרט",
+                "img1":"../Picturs//options salat/רוטב ויניגרט.jpg",
+                "price":"₪2"
+            },
+            {
+                "name":"רוטב פסטו",
+                "img1":"../Picturs//options salat/רוטב פסטו.jpg",
+                "price":"₪2"
+            },
+            {
+                "name":"רוטב שום",
+                "img1":"../Picturs//options salat/רוטב שום.webp",
+                "price":"₪2"
+            },
+            {
+                "name":"שמן זית ולימון",
+                "img1":"../Picturs//options salat/שמן זית ולימון.jpg",
+                "price":"₪1"
+            }
+        ]
+    },
+    {
+        "type":0,
+        "price": "₪0",
+        "iconImg":"../Picturs/איקון ציפס.svg",
+        "imgUp":"../Picturs/ציפס.jpg",
+        "categoryName": "ציפס",
+        "productSaditionals":
+        [
+            {
+                "name":"S ציפס",
+                "img1":"../Picturs/ציפס.jpg",
+                "price":"₪10"  
+            },
+            {
+                "name":"M ציפס",
+                "img1":"../Picturs/ציפס.jpg",
+                "price":"₪20"  
+            },
+            {
+                "name":"L ציפס",
+                "img1":"../Picturs/ציפס.jpg",
+                "price":"₪25"  
+            },
+            {
+                "name":"XL ציפס",
+                "img1":"../Picturs/ציפס.jpg",
+                "price":"₪30"  
+            }
+        ] 
+    },
+    {
+        "type":4,
+        "price": "₪0",
+        "iconImg":"../Picturs/איקון שתיה.svg",
+        "imgUp":"../Picturs/שתייייה.jpg",
+        "categoryName": "שתיה",
+        "productSaditionals":
+        [
+            {
+                "name":"פחית קולה",
+                "img1":"../Picturs//שתיה/קוקה קולה.webp",
+                "price":"₪7"  
+            },
+            {
+                "name":"פחית קולה דייט",
+                "img1":"../Picturs/./שתיה/קוקקולה דייט.webp",
+                "price":"₪7"  
+            },
+            {
+                "name":"בקבוק קולה",
+                "img1":"../Picturs/./שתיה/בקבוק קוקקולה.jpg",
+                "price":"₪10"  
+            },
+            {
+                "name":"בקבוק קולה דייט",
+                "img1":"../Picturs//שתיה/קוקקולה בקבוק זירו.webp",
+                "price":"₪10"  
+            },
+            {
+                "name":"בקבוק פיוזטי אפרסק",
+                "img1":"../Picturs/./שתיה/פיוז טי אפרסק.webp",
+                "price":"₪9"  
+            },
+            {
+                "name":"מים בטעמים תפוח",
+                "img1":"../Picturs/./שתיה/מים בטעמים תפוח.png",
+                "price":"₪7"  
+            },
+            {
+                "name":"מים בטעמים ענבים",
+                "img1":"../Picturs//שתיה/מים בטעמים ענבים.png",
+                "price":"₪7"  
+            },
+            {
+                "name":"מים בטעמים אפרסק",
+                "img1":"../Picturs/./שתיה/מים בטעמים אפרסק.webp",
+                "price":"₪7"  
+            },
+            {
+                "name":"בקבוק סודה",
+                "img1":"../Picturs//שתיה/בקבוק סודה.webp",
+                "price":"₪7"  
+            },
+            {
+                "name":"XL פחית",
+                "img1":"../Picturs//שתיה/XL פחית.png",
+                "price":"₪8"  
+            },
+            {
+                "name":"בקבוק בירה שחורה",
+                "img1":"../Picturs//שתיה/בקבוק בירה שחורה.png",
+                "price":"₪10"  
+            },
+            {
+                "name":"אייס קפה",
+                "img1":"../Picturs//שתיה/אייס קפה.png",
+                "price":"₪13"  
+            },
+            {
+                "name":"בקבוק מים",
+                "img1":"../Picturs/./שתיה/מים.webp",
+                "price":"₪7"  
+            }
+        ]
+
+    }
+]

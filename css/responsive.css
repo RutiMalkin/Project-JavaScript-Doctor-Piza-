@@ -1,0 +1,41 @@
+@media screen and (max-width: 900px){
+    .navp {
+        display: none;
+    }
+
+    .all-nav{
+        width: 150px;
+    }
+
+    .top-nav{
+        width: 900px;
+    }
+
+    .cities{
+        width: 373px;
+        
+    }
+
+    .form-pay{
+        width: 373px;
+    }
+
+    .form-pay > form {
+        margin-left: -82px;
+    }
+
+} 
+
+@media screen and (max-width: 400px){
+    .fone-piza{
+        display: none;
+    }
+
+    .top-nav{
+        width: 400px;
+    }
+
+    .top-nav >a{
+        display: none;
+    }
+} 
